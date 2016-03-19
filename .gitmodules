@@ -1,0 +1,3 @@
+[submodule "luaxxhash"]
+	path = luaxxhash
+	url = https://github.com/szensk/luaxxhash.git
