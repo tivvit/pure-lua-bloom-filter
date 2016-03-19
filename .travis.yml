@@ -19,8 +19,7 @@ before_install:
   - luarocks install lunitx
 
 script:
-  - cd test
-  - luajit test.lua
+  - luajit test/test.lua
 
 notifications:
   email:

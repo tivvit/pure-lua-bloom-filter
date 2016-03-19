@@ -1,5 +1,8 @@
 # Lua bloom filter
 
+![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
+![tests](https://api.travis-ci.org/tivvit/pure-lua-bloom-filter.svg?branch=master)
+
 Pure luajit implementation of [bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) (probabilistic data structure usable for storing many values effectively).
 
 - Based on https://github.com/mozilla-services/lua_bloom_filter
@@ -41,7 +44,7 @@ bf:query("a") -- 0
 
 `luajit test/test.lua`
 ## TODO
-[ ] luarocks (any help would be very much appreciated)
+-  [ ] luarocks (any help would be very much appreciated)
 
 ### Development
 
